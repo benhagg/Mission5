@@ -16,7 +16,14 @@ namespace Mission5.Controllers
         public IActionResult Index()
         {
             return View();
+
         }
+
+        public IActionResult Calculator()
+        {
+            return View();
+        }
+
 
         public IActionResult Privacy()
         {
